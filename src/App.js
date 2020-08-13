@@ -1,5 +1,6 @@
 import React from 'react'
 import TubeLines from './components/TubeLines'
+// import MediaQueries from './components/MediaQueries'
 import Loader from './components/Loader'
 import { getAllStatuses } from './lib/api'
 
@@ -9,6 +10,7 @@ class App extends React.Component {
   componentDidMount() {
     this.getData()
     this.interval = setInterval(this.getData, 60000)
+    this.mediaQuery()
   }
 
   componentWillUnmount() {
@@ -21,6 +23,9 @@ class App extends React.Component {
     this.setState({ tubeLines: res.data })
   }
 
+  mediaQuery = () => {
+    console.log(window.matchMedia('(max-width: 400px)'))
+  }
 
   render() {
     if (!this.state.tubeLines) return <Loader />

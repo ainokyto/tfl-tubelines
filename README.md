@@ -6,7 +6,7 @@ A simple React App to monitor the current status of the London Underground by us
 
 ### Deployment
 
-This project has been deployed with and is hosted at 
+This project has been deployed with Netlify and is hosted at 
 
 ### Git Clone
 
@@ -24,7 +24,7 @@ To clone the code on your machine and run the program in your local environment,
 
 ## Approach taken
 
-The objective of this app was to educate myself about lifecycle methods and API HTTP requests, namely GET. The app is built mobile-first in React with classical and functional components.
+The objective of this app was to educate myself about lifecycle methods and API HTTP requests, namely GET. The app is built in React with classical and functional components.
 
 I started by hooking into to the TfL API endpoint with Insomnia REST Client. Once I was satisfied my HTTP request was giving the response I expected, I installed the Axios dependency and wrote an asynchronous GET request to get data from the endpoint.
 
@@ -39,3 +39,5 @@ The program I wrote leverages the Axios request to fetch data from the TfL API e
 ```
 
 The interval is cleared when the page unmounts. I'm then mapping to produce an JSX instance of the reusable component `TubeLine.js` for each tube line in the dataset, with the respective name and status.
+
+I revisited this project to implement responsive design with custom Hook, leveraging a `MatchMedia` method on the `window` object.
