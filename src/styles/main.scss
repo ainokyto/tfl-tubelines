@@ -1,0 +1,116 @@
+@import '~bulma/bulma.sass';
+
+//? COLOUR VARIABLES
+
+$cityMapperGreenLighter: rgb(55, 171, 46);
+$cityMapperGreenDarker: #2E9127;
+
+$bakerloo: #B36305;
+$central: #CC3333;
+$circle: #FFD300;
+$district: #00782A;
+$hammersmith-city: #F3A9BB;
+$jubilee: #A0A5A9;
+$metropolitan: #9B0056;
+$northern: #000000;
+$piccadilly: #003688;
+$victoria: #0098D4;
+$waterloo-city: #95CDBA;
+
+//? UNIVERSAL
+
+* {
+  margin: 0 auto;
+  background-color: #efefef;
+  font-family: 'Baloo Tamma 2', cursive;
+  text-align: center;
+}
+
+h1 {
+  padding: 20px
+}
+
+h2 {
+  padding: 15px
+}
+
+h4  {
+  margin-bottom: 20px;
+  &:last-of-type {
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+  }
+}
+
+.Loader {
+  text-align: center;
+  padding: 100px
+}
+
+//? TUBELINES
+
+.bakerloo {
+  h2 {
+    background-color: $bakerloo;
+  }
+}
+
+.central {
+  h2 {
+    background-color: $central;
+  }
+}
+
+.circle {
+  h2 {
+    background-color: $circle;
+  }
+}
+
+.district {
+  h2 {
+    background-color: $district;
+  }
+}
+
+.hammersmith-city {
+  h2 {
+    background-color: $hammersmith-city;
+  }
+}
+
+.jubilee {
+  h2 {
+    background-color: $jubilee;
+  }
+}
+
+.metropolitan {
+  h2 {
+    background-color: $metropolitan;
+  }
+}
+
+.northern {
+  h2 {
+    background-color: $northern;
+  }
+}
+
+.piccadilly {
+  h2 {
+    background-color: $piccadilly;
+  }
+}
+
+.victoria {
+  h2 {
+    background-color: $victoria;
+  }
+}
+
+.waterloo-city {
+  h2 {
+    background-color: $waterloo-city;
+  }
+}
