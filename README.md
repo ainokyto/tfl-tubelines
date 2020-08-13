@@ -6,11 +6,11 @@ A simple React App to monitor the current status of the London Underground by us
 
 ### Deployment
 
-This project has been deployed with Netlify and is hosted at 
+This project has been deployed with Netlify and is hosted [here](https://tfl-tubelines.netlify.app/).
 
 ### Git Clone
 
-To clone the code on your machine and run the program in your local environment, click the Code button above to check out with HTTPS or SSH. Then run `yarn` in the root level to install dependencies, and `yarn start` to start the server.
+To clone the code on your machine and run the program in your local environment, click the Code button above. After downloading it with HTTPS or SSH, run `yarn` in the root level to install dependencies, and `yarn start` to start the server.
 
 ## Technologies used
 * React
